@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="download3.png">
+    <link rel="stylesheet" href="style.css">
+    <title>My Travelink | Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="logo_mytravelink-removebg-preview.png" alt="">
+                </a>
+                <div class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#kategori">Kategori</a></li>
+                    <li><a href="#testi">Testimoni</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>    
+    <script>
+        const toggleMenu = document.querySelector('.toggle-menu');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        toggleMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            toggleMenu.classList.toggle('active');
+        });
+    </script>    
+    <section class="hero" id="beranda">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>KAMI ADA UNTUK KEMUDAHAN TRANSPORTASI ANDA</h1>
+                <p>"IF YOU NEVER GO, YOU WILL NEVER KNOW"</p>
+            </div>
+        </div>
+    </section> 
+    <section class="get-started">
+        <div class="container">
+            <h2>GET STARTED WITH MYTRAVELINK</h2>
+            <p>Ready to embark on your next adventure? Sign up for MyTravelInk today to explore new destinations, plan your trips, and connect with fellow travelers!</p>
+            <a href="#daftar" class="btn-get-started">Sign Up Now</a>
+        </div>
+    </section>        
+    <section class="features" id="kategori">
+        <h2 class="section-title">KATEGORI TRAVEL</h2>
+        <div class="container">
+            <div class="feature">
+                <img src="download.png" alt="   " class="feature-icon">
+                <div class="feature-content">
+                    <h2>BANDUNG ONEDAYTOUR</h2>
+                    <p>Tidak ada penjelasan singkat untuk saat ini</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images.png" alt="" class="feature-icon">
+                <div class="feature-content">
+                    <h2>HONEYMOON TRIP</h2>
+                    <p>Tidak ada penjelasan singkat untuk saat ini</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="download2.png" alt="" class="feature-icon">
+                <div class="feature-content">
+                    <h2>COMPANY GATHERING</h2>
+                    <p>Tidak ada penjelasan singkat untuk saat ini</p>
+                </div>
+            </div>
+            <!-- Tambahkan lebih banyak keunggulan jika diperlukan -->
+        </div>
+    </section>
+    <section class="testimonials" id="testi">
+        <div class="container">
+            <h2 class="section-title">TESTIMONI PELANGGAN</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Saya sangat senang menggunakan layanan MyTravelInk untuk merencanakan liburan keluarga saya. Mereka menyediakan pilihan paket liburan yang lengkap dengan harga yang sangat kompetitif. Selain itu, pelayanan pelanggan mereka juga sangat responsif dan membantu kami dengan semua pertanyaan dan permintaan kami. Terima kasih MyTravelInk!"</p>
+                        <p class="testimonial-author">Michelle, 28 tahun, Jakarta</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Sebagai seorang backpacker yang sering bepergian sendirian, saya sangat mengandalkan MyTravelInk untuk menemukan destinasi yang menarik dan budget-friendly. Saya suka bagaimana situs mereka menyajikan informasi yang jelas dan detail tentang destinasi wisata, serta tips-tips perjalanan yang berguna. Ini membuat perjalanan saya lebih lancar dan menyenangkan."</p>
+                        <p class="testimonial-author">Ahmad, 35 tahun, Surabaya</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"MyTravelInk adalah pilihan utama saya untuk memesan tiket pesawat dan akomodasi. Situs mereka mudah digunakan dan menawarkan banyak opsi, mulai dari hotel mewah hingga hostel murah. Saya juga suka fitur perbandingan harga mereka yang membantu saya menemukan penawaran terbaik. Saya telah menggunakan layanan mereka berkali-kali dan belum pernah kecewa!"</p>
+                        <p class="testimonial-author">Sarah, 25 tahun, Bandung</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section class="blogs" id="blogs">
+        <div class="container">
+            <h2 class="section-title">BLOGS</h2>
+            <div class="blogs-grid">
+                <div class="blog">
+                    <img src="1709613158.jpg" alt="">
+                    <div class="blog-content">
+                        <h3 class="blog-title">INI DIA TIPS MEMUDAHKAN ANDA SAAT DI BANDARA</h3>
+                        <p class="blog-date">10 Juli 2024</p>
+                        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque purus eu velit molestie, at fringilla tortor ultrices.</p>
+                        <a href="#" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="1709537835.jpg" alt="">
+                    <div class="blog-content">
+                        <h3 class="blog-title">PANDUAN WISATA SETELAH SUASANA LEBARAN</h3>
+                        <p class="blog-date">8 Juli 2024</p>
+                        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque purus eu velit molestie, at fringilla tortor ultrices.</p>
+                        <a href="#" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="1709520229.jpg" alt="">
+                    <div class="blog-content">
+                        <h3 class="blog-title">DESTINASI UNIK PASCA LEBARAN</h3>
+                        <p class="blog-date">5 Juli 2024</p>
+                        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque purus eu velit molestie, at fringilla tortor ultrices.</p>
+                        <a href="#" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About MyTravelInk</h2>
+                <p>MyTravelInk is your ultimate companion for discovering new destinations, planning trips, and sharing travel experiences. Whether you're a seasoned traveler or new to exploring the world, MyTravelInk provides you with the tools and information you need to make your journeys memorable.</p>
+                <p>Explore our curated list of destinations, create personalized itineraries, and connect with fellow travelers to share tips and stories. Start your next adventure with MyTravelInk!</p>
+            </div>
+        </div>
+    </section>
+    <section class="registration-form" id="daftar">
+        <div class="container">
+            <h2 class="section-title">Registration Form</h2>
+            <form action="#" class="form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer" id="kontak">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-section-title">Kontak Kami</h3>
+                    <ul class="contact-info">
+                        <li>Jl. Pamanukan No.12, Antapani Kulon, Kec. Antapani, Kota Bandung, Jawa Barat 40291</li>
+                        <li>0878-2770-7222</li>
+                        <li>mytravelink.id@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Copyright 2024 MyTravelink. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>           
+</body>
+</html>
